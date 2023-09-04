@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+container-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-texto, .input-radios, select {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+}
+
+.input-radios {
+    display: inline-block;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button {
+    width: 150px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+}

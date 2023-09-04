@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionários</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+</head>
+<body>
+    <div class="container-form">
+        <label for="nome">Nome</label>
+        <input class="input-texto" type="text" name="nome">
+        <label for="idade">Idade</label>
+        <input class="input-texto" type="text" name="idade">
+        <label for="email">Email</label>
+        <input class="input-texto" type="text" name="email">
+        <label for="genero">Gênero</label>
+        <div class="input-radios">
+            <input type="radio" name="genero" value="M">
+            <span>M</span>
+            <input type="radio" name="genero" value="F">
+            <span>F</span>
+        </div>
+        <label for="cpf">CPF</label>
+        <input class="input-texto" type="text" name="cpf">
+        <label for="endereco">Endereço</label>
+        <input class="input-texto" type="text" name="endereco">
+        <label for="telefone">Telefone</label>
+        <input class="input-texto" type="tel" name="telefone">
+        <label for="tipo">Tipo</label>
+        <select name="tipo">
+            <option>Escolha uma opção</option>
+            <option value="G">Gestor</option>
+            <option value="N">Normal</option>
+        </select>
+        <label for="f-geridos">Funcionários Geridos</label>
+        <input class="input-texto" type="text" name="geridos">
+    </div>
+    <div class="botoes">
+        <a href="menu.html">
+            <button>Voltar</button>
+        </a>
+        <a>
+            <button>Salvar</button>
+        </a>
+    </div>
+</body>
+</html>
